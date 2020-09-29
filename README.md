@@ -16,7 +16,7 @@ This notebook is a companion to [] which is posted at [arxiv:](https://arxiv.org
 
 We encourage use of these data in derivative works.
 
-The data provided contain the posterior samples from a selection of the simulated binary neutron star and neutron star--black hole signals recovered by our analysis. These data are stored in the files contained in [bns_posteriors](https://github.com/sugwg/rapid-relbin-pe/bns_posteriors) for binary neutron star signals, and [nsbh_posteriors](https://github.com/sugwg/rapid-relbin-pe/nsbh_posteriors) for neutron star--black hole signals. The notebook [data_release_companion.ipynb](https://github.com/sugwg/rapid-relbin-pe/blob/master/data_release_companion.ipynb) contains a demonstration of retrieving posterior samples from the data files and plotting the results shown in Figure 3 of the paper.
+The data provided contain the posterior samples from a selection of the simulated binary neutron star and neutron star--black hole signals recovered by our analysis. These data are stored in the files contained in [bns_posteriors](https://github.com/sugwg/rapid-relbin-pe/tree/master/bns_posteriors) for binary neutron star signals, and [nsbh_posteriors](https://github.com/sugwg/rapid-relbin-pe/tree/master/nsbh_posteriors) for neutron star--black hole signals. The notebook [data_release_companion.ipynb](https://github.com/sugwg/rapid-relbin-pe/blob/master/data_release_companion.ipynb) contains a demonstration of retrieving posterior samples from the data files and plotting the results shown in Figure 3 of the paper.
 
 The results used in the paper were generated with the [PyCBC v1.16.9 release.](https://github.com/gwastro/pycbc/releases/tag/v1.16.9)
 
