@@ -16,6 +16,26 @@ This notebook is a companion to [] which is posted at [arxiv:](https://arxiv.org
 
 We encourage use of these data in derivative works.
 
+The data provided contain the posterior samples from a selection of the simulated binary neutron star and neutron star--black hole signals recovered by our analysis. These data are stored in the files contained in [bns_posteriors](https://github.com/sugwg/rapid-relbin-pe/bns_posteriors) for binary neutron star signals, and [nsbh_posteriors](https://github.com/sugwg/rapid-relbin-pe/nsbh_posteriors) for neutron star--black hole signals. The notebook [data_release_companion.ipynb](https://github.com/sugwg/rapid-relbin-pe/blob/master/data_release_companion.ipynb) contains a demonstration of retrieving posterior samples from the data files and plotting the results shown in Figure 3 of the paper.
+
+The results used in the paper were generated with the [PyCBC v1.16.9 release.](https://github.com/gwastro/pycbc/releases/tag/v1.16.9)
+
+## Runing this notebook in a Docker container
+
+This notebook can be run from a PyCBC Docker container, or a machine with PyCBC installed. Instructions for [downloading the docker container](http://gwastro.github.io/pycbc/latest/html/docker.html) are available from the [PyCBC home page.](https://pycbc.org/) To start a container with instance of Jupyter notebook, run the commands
+```sh
+docker pull pycbc/pycbc-el7:v1.16.9
+docker run -p 8888:8888 --name pycbc_notebook -it pycbc/pycbc-el7:v1.16.9 /bin/bash -l
+```
+Once the container has started, this git repository can be downloaded with the command:
+```sh
+git clone https://github.com/sugwg/rapid-relbin-pe.git
+```
+The notebook server can be started inside the container with the command:
+```sh
+jupyter notebook --ip 0.0.0.0 --no-browser
+```
+You can then connect to the notebook server at the URL printed by ``jupyter``. Navigate to the directory `rapid-relbin-pe` in the cloned git repository and open [data_release_companion.ipynb](https://github.com/sugwg/rapid-relbin-pe/blob/master/data_release_companion.ipynb), the notebook that demonstrates use of these reults.
 
 ## Acknowledgements
 We thank Brian Metzger, Ben Margalit, and Edo Berger for helpful discussions. DAB thanks the Kavli Institute for Theoretical Physics for their hospitality.
