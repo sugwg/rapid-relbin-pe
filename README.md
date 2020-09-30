@@ -12,7 +12,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 
 ## Introduction
 
-This notebook is a companion to [] which is posted at [arxiv:](https://arxiv.org/abs/). It demonstrates how to read and use our posterior proability density files from the parameter estimation and shows how in principle to reconstruct Figure 3 in the paper from the raw data.
+This notebook is a companion to Finstad & Brown (2020) which is posted at [arxiv:2009.13759](https://arxiv.org/abs/2009.13759). It demonstrates how to read and use our posterior proability density files from the parameter estimation and shows how in principle to reconstruct Figure 3 in the paper from the raw data.
 
 We encourage use of these data in derivative works.
 
